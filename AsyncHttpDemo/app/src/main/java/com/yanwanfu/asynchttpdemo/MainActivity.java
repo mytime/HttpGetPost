@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                 //请求成功
-                Toast.makeText(MainActivity.this,headers.toString(),Toast.LENGTH_LONG).show();
+//                Toast.makeText(MainActivity.this,headers.toString(),Toast.LENGTH_LONG).show();
+                System.out.println(">>>>>>>>>>>>>>f"+statusCode);
             }
 
             @Override

@@ -17,6 +17,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        //请求对列
         queue = Volley.newRequestQueue(getApplicationContext());
     }
 
